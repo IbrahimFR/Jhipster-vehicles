@@ -1,0 +1,39 @@
+{
+    "name": "Vehicle",
+    "fields": [
+        {
+            "fieldName": "vehicleId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "vIN",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "regNum",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipName": "customer",
+            "otherEntityName": "customer",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20190629185454",
+    "javadoc": "The Vehicle entity.",
+    "entityTableName": "vehicle",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

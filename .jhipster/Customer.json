@@ -1,0 +1,36 @@
+{
+    "name": "Customer",
+    "fields": [
+        {
+            "fieldName": "customerId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "vehicle",
+            "otherEntityRelationshipName": "customer",
+            "javadoc": "A relationship",
+            "relationshipName": "vehicle"
+        }
+    ],
+    "changelogDate": "20190629185455",
+    "javadoc": "The Customer entity.",
+    "entityTableName": "customer",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

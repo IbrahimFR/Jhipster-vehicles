@@ -1,0 +1,33 @@
+/**
+ * The Vehicle entity.
+ */
+
+entity Vehicle {
+  vehicleId Long,
+  VIN String,
+  regNum String,
+  status Boolean
+}
+
+/**
+ * The Customer entity.
+ */
+entity Customer {
+  customerId Long,
+  name String,
+  address String
+}
+
+relationship OneToMany {
+  /**
+   * A relationship
+   */
+  Customer{vehicle} to
+  /**
+   * Another side of the same relationship
+   */
+  Vehicle
+}
+
+paginate Customer,Vehicle with pagination
+

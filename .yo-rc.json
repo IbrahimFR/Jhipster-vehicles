@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ibrahimfouad"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "monolith",
+    "baseName": "vehicles",
+    "packageName": "com.ibrahimfouad",
+    "packageFolder": "com/ibrahimfouad",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjlhMjM4M2RiNDQ1MDBjOWIwYTFkNTE1MmEyYjJiNDE4ZDU0MzE0Y2JjMDk4ZDFhOThiMTk4Y2I1OTQyYjUzYTY5MTlhMGRiMmM5YWI4NmY1NDQ5Zjc5YjNhMzY2OGFjNjVkNGJjZmRlODRmMzQ4ODcxYTdhOGVlODIwM2ZkMDY=",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
